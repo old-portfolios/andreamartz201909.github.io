@@ -1,0 +1,17 @@
+.slides-navigation a.prev {
+  left: 20px;
+}
+
+.slides-navigation a.next {
+  right: 20px;
+}
+
+/* #drk {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.9;
+} */
