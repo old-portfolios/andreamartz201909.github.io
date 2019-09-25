@@ -42,3 +42,7 @@
 .title-message .heading .subtitle {
   font-size: 23px;
 }
+
+section {
+  padding: 100px 0;
+}
