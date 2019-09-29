@@ -37,7 +37,7 @@ body {
 }
 
 .title-message .heading p {
-  color: #ffffff;
+  color: #fff;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
   font-weight: 200;
   letter-spacing: 7px;
@@ -56,22 +56,41 @@ body {
 }
 
 .about-image {
-  max-width: 100%;
+  max-width: 150px;
+  border-radius: 50%;
 }
 
 .skills-section {
   background-color: #648C9C;
-  color: #ffffff;
+  color: #fff;
 }
 
+#navigation {
+  background-color: #648C9C;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+}
 
-/* .navbar-flat { background: #d82c2e; margin-bottom: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
-.navbar-flat .navbar-collapse { text-align: center; }
-.navbar-flat .navbar-toggle .icon-bar { background: white; }
-.navbar-flat ul { float: none; }
-.navbar-flat li { display: inline-block; float: none; }
-.navbar-flat li a:hover { background: #c12728; color: white; }
-.navbar-flat li a:focus { background: #c12728; color: white; }
-.navbar-flat li.active a { background: #c12728; color: white; }
-.navbar-flat a { font-family: "Lato", sans-serif; font-weight: 700; color: #f7f8f8; -webkit-transition: all 0.3s ease-in, 1s; -moz-transition: all 0.3s ease-in, 1s; -o-transition: all 0.3s ease-in, 1s; -ms-transition: all 0.3s ease-in, 1s; transition: all 0.3s ease-in, 1s; }
-.navbar-flat .navbar-brand { display: none; } */
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background: url(../images/icons/hamburger-menu.svg);
+  background-size: 100%;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
